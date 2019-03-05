@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 import { TodoContainerComponent } from './todo-container.component';
 import { TodoItemComponent } from '../todo-item/todo-item.component';
 import { MockComponent} from 'ng-mocks';
-import { TodoService, Todo } from 'src/app/services/todo.service';
+import { TodoService, Todo } from '../../../app/services/todo.service';
 
 describe('TodoContainerComponent', () => {
   let component: TodoContainerComponent;

@@ -2,7 +2,7 @@ import { FormsModule } from '@angular/forms';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AddTodoComponent } from './add-todo.component';
-import { TodoService } from 'src/app/services/todo.service';
+import { TodoService } from '../../../../src/app/services/todo.service';
 
 describe('AddTodoComponent', () => {
   let component: AddTodoComponent;
